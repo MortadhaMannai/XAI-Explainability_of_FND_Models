@@ -1,0 +1,78 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 105263312,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/GonzaloA/fake_news/resolve/d653ddbf8eecee268bf6bc6e2fb2d0433704fedf/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 12986224,
+      "checksum": "ebb16798a2dee69558495c3641a68cdab738dd190e464ae50d288b5013c5e84a"
+    },
+    "https://huggingface.co/datasets/GonzaloA/fake_news/resolve/d653ddbf8eecee268bf6bc6e2fb2d0433704fedf/data/test-00000-of-00001.parquet": {
+      "num_bytes": 13044162,
+      "checksum": "1f34a71018d51feda81fc657432c3287c3b09af6b5a3b1b67a945938d1a57999"
+    },
+    "https://huggingface.co/datasets/GonzaloA/fake_news/resolve/d653ddbf8eecee268bf6bc6e2fb2d0433704fedf/data/train-00000-of-00001.parquet": {
+      "num_bytes": 38790951,
+      "checksum": "13f6fccc352958149aa1c752f2ad8acd054d5331092c322fb0b0e7b9e53b29d3"
+    }
+  },
+  "download_size": 64821337,
+  "features": {
+    "Unnamed: 0": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 170084649,
+  "splits": {
+    "validation": {
+      "name": "validation",
+      "num_bytes": 21101325,
+      "num_examples": 8117,
+      "dataset_name": "parquet"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 21189597,
+      "num_examples": 8117,
+      "dataset_name": "parquet"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 62972390,
+      "num_examples": 24353,
+      "dataset_name": "parquet"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
