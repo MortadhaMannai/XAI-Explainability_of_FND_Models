@@ -1,9 +1,7 @@
 This repository aims to explain state-of-the-art Fake News Detection models.
 Huggingface module is intended for explaining only-text-based fake news detection models in Transformers.
 GNNFakeNews module is an attempt to explain GNNs that are hybrid models for fake news
-detection (https://github.com/safe-graph/GNN-FakeNews) using
-GNNExplainer (https://pytorch-geometric.readthedocs.io/en/latest/modules/nn.html#torch_geometric.nn.models.GNNExplainer)
-and latent space exploration.
+detection using GNNExplainer and latent space exploration.
 
 Uses code pieces from https://github.com/safe-graph/GNN-FakeNews.
 
