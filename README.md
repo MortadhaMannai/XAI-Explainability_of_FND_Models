@@ -1,8 +1,4 @@
 
-Certainly! Here's an example README file for the project "XAI-Explainability_of_FND_Models" authored by Manai Mortadha:
-
----
-
 # XAI: Explainability of FND Models
 
 Author: Manai Mortadha
